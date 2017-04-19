@@ -14,12 +14,14 @@ $(function(){
         $('html,body').animate({
             scrollTop:'0px'
         },800)
+        $('#resume_nav').css("display",'none');
     });
 
     $('#down').click(function(){
         $('html,body').animate({
             scrollTop:$('#intro').offset().top
         },800);
+        $('#resume_nav').css("display",'inline-block');
     });
     $('#nav_intro').click(function(){
         $('html,body').animate({
